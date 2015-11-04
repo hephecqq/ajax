@@ -1,0 +1,11 @@
+load()方法
+load()方法时jQuery中最为简单和常用的A级阿信方法
+能载入远程HTML代码并插入到DOM中，它的结构是
+load(url,[,data],[,callback])
+参数名称		   类型			说明
+url			String		请求HTML页面的URL地址
+data		Object		发送到服务器的key/value数据
+callback	Function	请求完成时回调函数，无论请求成功或失败
+程序员只需要使用jQuery选择器为HTML片段指定
+目标位置，然后将要加载的文件的url作为参数传递给
+load()方法即可

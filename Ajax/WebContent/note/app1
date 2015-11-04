@@ -1,0 +1,10 @@
+<!--
+	1. 需要导入jquery库
+	2.获取name="username"的节点，username
+	3.获取username的value属性值，去除前后不为空
+	4.给name='usernmae'加上change事件
+	5.不为空准备发送Ajax请求
+	6.发送Ajax请求，检验是否username可用
+	7.在服务端直接返回一个html片段
+	8.在客户端浏览器把其值添加到#message和html中
+ -->
